@@ -65,6 +65,6 @@ Now back in the unzipped osTicket installation folder, run the "mysql-5.5.62-win
 <img src="https://github.com/kevinyeh-git/osticket-prereqs/blob/main/Screenshot_7.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-In the configuration settings, select "Standard Configuration" and click "Next". Ignore the next page and click "Next" again. This next page is very important to not misstype. Input your chosen root password and retype the same password in the next box to confirm. Then click "Next" and "Finish"
+In the configuration settings, select "Standard Configuration" and click "Next". Ignore the next page and click "Next" again. This next page is very important to not misstype. Input your chosen root password and retype the same password in the next box to confirm. Then click "Next" and "Execute"
 </p>
 <br />

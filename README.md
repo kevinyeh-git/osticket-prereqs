@@ -78,7 +78,7 @@ Open "Internet Information Services (IIS) Manager" as Administrator. Navigate to
 <br />
 
 <p>
-<img src="https://github.com/kevinyeh-git/osticket-prereqs/blob/main/Screenshot_9.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/kevinyeh-git/osticket-prereqs/blob/main/Screenshot_9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 We will now extract the second zipped file in our unzipped osTicket installation folder, "osTicket-v1.15.8". Click "Browse" and extract to this file address: C://Windows(C:)/inetpub/wwwroot. Then in the folder we just extracted to, "wwwroot", rename the folder named "upload" to "osTicket".

@@ -41,7 +41,7 @@ From the Windows Search Bar, open Control Panel, navigate to "Programs", and ope
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next we need to install "PHP Manager for IIS", this is essential for osTicket to work since osTicket runs off of PHP. From within the unzipped osTicket installation folder, run "PHPManagerForIIS_V1.5.0" and click "Next". Go through the installer, checking "I agree" and clicking "Next" until the installer is finished.
 </p>
 <br />
 

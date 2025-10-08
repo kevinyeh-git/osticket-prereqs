@@ -57,6 +57,14 @@ Next, right click the zipped "php-7.3.8-nts-Win32-VC15-x86" file and select "Ext
 <img src="https://github.com/kevinyeh-git/osticket-prereqs/blob/main/Screenshot_6.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Now back in the unzipped osTicket installation folder, run the "mysql-5.5.62-win32" installer. This will install MySQL, a backend database that will store a majority of our data. In the installer, click "Next" and check any "I accept" boxes until we reach the "Choose Setup Type" section. We will select "Typical Setup" and then click "Install". Finally, click "Finish".
+Now back in the unzipped osTicket installation folder, run the "mysql-5.5.62-win32" installer. This will install MySQL, a backend database that will store a majority of our data. In the installer, click "Next" and check any "I accept" boxes until we reach the "Choose Setup Type" section. We will select "Typical Setup" and then click "Install". Finally, click "Finish". A configuration window should appear.
+</p>
+<br />
+
+<p>
+<img src="https://github.com/kevinyeh-git/osticket-prereqs/blob/main/Screenshot_7.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+In the configuration settings, select "Standard Configuration" and click "Next". Ignore the next page and click "Next" again. This next page is very important to not misstype. Input your chosen root password and retype the same password in the next box to confirm. Then click "Next" and "Finish"
 </p>
 <br />

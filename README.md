@@ -38,7 +38,7 @@ From the Windows Search Bar, open Control Panel, navigate to "Programs", and ope
 <br />
 
 <p>
-<img src="https://github.com/kevinyeh-git/osticket-prereqs/blob/main/Screenshot_3.png" height="70%" width="70%" alt="PHP Manager Install"/>
+<img src="https://github.com/kevinyeh-git/osticket-prereqs/blob/main/Screenshot_3.png" height="50%" width="50%" alt="PHP Manager Install"/>
 </p>
 <p>
 Next we need to install "PHP Manager for IIS", this is essential for osTicket to work since osTicket runs off of PHP. From within the unzipped osTicket installation folder, run "PHPManagerForIIS_V1.5.0" and click "Next". Go through the installer, checking "I agree" and clicking "Next" until the installer is finished.

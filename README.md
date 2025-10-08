@@ -33,7 +33,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://github.com/kevinyeh-git/osticket-prereqs/blob/main/Screenshot_5.png" height="25%" width="25%" alt="Extracting Installation Files"/>
 </p>
 <p>
-
+From the Windows Search Bar, open Control Panel, navigate to "Programs", and open "Turn Windows features on or off". Within "Windows Features", check "Internet Information Services". Then, expand "World Wide Web Services" as well as "Application Development Features" and check "CGI".
 </p>
 <br />
 

@@ -89,6 +89,22 @@ We will now extract the second zipped file in our unzipped osTicket installation
 <img src="https://github.com/kevinyeh-git/osticket-prereqs/blob/main/Screenshot_10.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Next we must assign permissions to the file we just renamed. Right click the "ost-config.php" file and select properties. Navigate to the "Security" tab and select Advanced. Click "Disable inheritance" and then "Remove all inherited permissions from this object." Then, select "Add", then "Select a principal", and enter the object name "Everyone" and select "OK". Hit "OK" and "Apply" to apply these new permissions
+Next we must assign permissions to the file we just renamed. Right click the "ost-config.php" file and select properties. Navigate to the "Security" tab and select Advanced. Click "Disable inheritance" and then "Remove all inherited permissions from this object." Then, select "Add", then "Select a principal", and enter the object name "Everyone" and select "OK". Then check "Full Control" and hit "OK" and "Apply" to apply these new permissions
+</p>
+<br />
+
+<p>
+<img src="https://github.com/kevinyeh-git/osticket-prereqs/blob/main/Screenshot_11.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Finally we will run the "HeidiSQL_12.3.0.6589_Setup" installer. HeidiSQL will be the connector between our SQL database and osTicket. Continue through the installer clicking "Next" and "Install" until finished. Select "Skip" in the new window. In the next new window, select "New" and then type in your previously selected root password into the password input box. Then select "Open". In the new window, create a new database by right clicking "Unnamed" and selecting "Create new" and then "Database". Name this database "osTicket".
+</p>
+<br />
+
+<p>
+<img src="https://github.com/kevinyeh-git/osticket-prereqs/blob/main/Screenshot_12.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Next go to the local webpage and the osTicket installer should appear. Continue through until you reach the basic installation page. Fill out the System settings and Admin user information. Then in Database settings, name the MySQL Database "osTicket", the MySQL Username "root", and MySQL Password to your chosen password from before. Then Click "Install Now". If everything was correctly followed, osTicket should now be installed!
 </p>
 <br />

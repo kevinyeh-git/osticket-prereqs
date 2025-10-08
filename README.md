@@ -19,7 +19,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Microsoft Azure account with subscription
 - Azure Virtual Machine with Windows 10, 4vCPUs
-- <a href="https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD">osTicket Installation Files </a>
+- Unzipped <a href="https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD">osTicket Installation Files </a>
 - Enable Internet Information Services (IIS)
 - Install WebPlatform Installer
 - Install MySQL
@@ -33,7 +33,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://github.com/kevinyeh-git/osticket-prereqs/blob/main/Screenshot_5.png" height="25%" width="25%" alt="Extracting Installation Files"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
 </p>
 <br />
 

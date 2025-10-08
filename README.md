@@ -102,7 +102,7 @@ Finally we will run the "HeidiSQL_12.3.0.6589_Setup" installer. HeidiSQL will be
 <br />
 
 <p>
-<img src="https://github.com/kevinyeh-git/osticket-prereqs/blob/main/Screenshot_12.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/kevinyeh-git/osticket-prereqs/blob/main/Screenshot_12.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Next go to the local webpage and the osTicket installer should appear. Continue through until you reach the basic installation page. Fill out the System settings and Admin user information. Then in Database settings, name the MySQL Database "osTicket", the MySQL Username "root", and MySQL Password to your chosen password from before. Then Click "Install Now". If everything was correctly followed, osTicket should now be installed!

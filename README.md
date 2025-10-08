@@ -52,3 +52,11 @@ Next we need to install "PHP Manager for IIS", this is essential for osTicket to
 Next, right click the zipped "php-7.3.8-nts-Win32-VC15-x86" file and select "Extract all". In the new window, select "Browse" and navigate to your Windows C: drive. Right click and create a new folder and name it "PHP". Select the newly created "PHP" folder and extract to that folder.
 </p>
 <br />
+
+<p>
+<img src="https://github.com/kevinyeh-git/osticket-prereqs/blob/main/Screenshot_4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Now back in the unzipped osTicket installation folder, run the "mysql-5.5.62-win32" installer. This will install MySQL, a backend database that will store a majority of our data. In the installer, click "Next" and check any "I accept" boxes until we reach the "Choose Setup Type" section. We will select "Typical Setup" and then click "Install". Finally, click "Finish".
+</p>
+<br />

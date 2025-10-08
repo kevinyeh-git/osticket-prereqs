@@ -76,3 +76,11 @@ In the configuration settings, select "Standard Configuration" and click "Next".
 Open "Internet Information Services (IIS) Manager" as Administrator. Navigate to "PHP Manager" and select "Register new PHP version". Then click on the three dots to browse. Open our created "PHP" folder and select "php-cgi.exe".
 </p>
 <br />
+
+<p>
+<img src="https://github.com/kevinyeh-git/osticket-prereqs/blob/main/Screenshot_9.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+We will now extract the second zipped file in our unzipped osTicket installation folder, "osTicket-v1.15.8". Click "Browse" and extract to this file address: C://Windows(C:)/inetpub/wwwroot. Then in the folder we just extracted to, "wwwroot", rename the folder named "upload" to "osTicket".
+</p>
+<br />

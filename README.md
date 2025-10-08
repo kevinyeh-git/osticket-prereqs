@@ -68,3 +68,11 @@ Now back in the unzipped osTicket installation folder, run the "mysql-5.5.62-win
 In the configuration settings, select "Standard Configuration" and click "Next". Ignore the next page and click "Next" again. This next page is very important to not misstype. Input your chosen root password and retype the same password in the next box to confirm. Then click "Next", "Execute", and "Finish".
 </p>
 <br />
+
+<p>
+<img src="https://github.com/kevinyeh-git/osticket-prereqs/blob/main/Screenshot_8.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Open "Internet Information Services (IIS) Manager" as Administrator. Navigate to "PHP Manager" and select "Register new PHP version". Then click on the three dots to browse. Open our created "PHP" folder and select "php-cgi.exe".
+</p>
+<br />

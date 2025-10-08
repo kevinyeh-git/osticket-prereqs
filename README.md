@@ -20,12 +20,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Microsoft Azure account with subscription
 - Azure Virtual Machine with Windows 10, 4vCPUs
 - Unzipped <a href="https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD">osTicket Installation Files </a>
-- Enable Internet Information Services (IIS)
-- Install WebPlatform Installer
-- Install MySQL
-- Setup Username/Password
-- Install C++ Redistributable
-- Configure Permissions and install OSTicket
+- Internet Information Services (IIS)
+- WebPlatform Installer
+- MySQL
+- C++ Redistributable
 
 <h2>Installation Steps</h2>
 

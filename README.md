@@ -73,7 +73,7 @@ In the configuration settings, select "Standard Configuration" and click "Next".
 <img src="https://github.com/kevinyeh-git/osticket-prereqs/blob/main/Screenshot_8.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Open "Internet Information Services (IIS) Manager" as Administrator. Navigate to "PHP Manager" and select "Register new PHP version". Then click on the three dots to browse. Open our created "PHP" folder and select "php-cgi.exe".
+Open "Internet Information Services (IIS) Manager" as Administrator. Navigate to "PHP Manager" and select "Register new PHP version". Then click on the three dots to browse. Open our created "PHP" folder and select "php-cgi.exe". Next in the PHP Manager menu, select "Enable or disable an extension" and enable these three extensions: "php_imap.dll", "php_intl.dll", and "php_opcache.dll". To enable, just right click the extension and select "Enable".
 </p>
 <br />
 
@@ -81,6 +81,14 @@ Open "Internet Information Services (IIS) Manager" as Administrator. Navigate to
 <img src="https://github.com/kevinyeh-git/osticket-prereqs/blob/main/Screenshot_9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-We will now extract the second zipped file in our unzipped osTicket installation folder, "osTicket-v1.15.8". Click "Browse" and extract to this file address: C://Windows(C:)/inetpub/wwwroot. Then in the folder we just extracted to, "wwwroot", rename the folder named "upload" to "osTicket".
+We will now extract the second zipped file in our unzipped osTicket installation folder, "osTicket-v1.15.8". Click "Browse" and extract to this file address: C://Windows(C:)/inetpub/wwwroot. Then in the folder we just extracted to, "wwwroot", rename the folder named "upload" to "osTicket". Within this folder, open the folder named "include" and find the file named "ost-sampleconfig.php". Rename this file to "ost-config.php".
+</p>
+<br />
+
+<p>
+<img src="https://github.com/kevinyeh-git/osticket-prereqs/blob/main/Screenshot_10.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Next we must assign permissions to the file we just renamed. Right click the "ost-config.php" file and select properties. Navigate to the "Security" tab and select Advanced. Click "Disable inheritance" and then "Remove all inherited permissions from this object." Then, select "Add", then "Select a principal", and enter the object name "Everyone" and select "OK". Hit "OK" and "Apply" to apply these new permissions
 </p>
 <br />
